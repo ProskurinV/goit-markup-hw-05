@@ -228,7 +228,7 @@ header {
     url(../images/bg-hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .hero-title {
@@ -778,7 +778,7 @@ footer .text {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-  /* visibility: visible; */
+  /* visibility: hidden; */
 }
 
 .backdrop.is-hidden .modal {
@@ -814,6 +814,7 @@ footer .text {
   border: none;
   border-radius: 50%;
   border: 1px solid #0000001a;
+  cursor: pointer;
 }
 
 .btn-modal-close {
